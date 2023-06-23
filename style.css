@@ -1,0 +1,120 @@
+h1{
+    font-family: roboto;
+    color:white;
+}
+label{
+    color:white;
+    font-size: 20px;
+}
+form{
+    display: inline-block;
+}
+.textform{
+    justify-content: right;
+    text-align: right;
+}
+.welcome{
+    font-size: 200px;
+    text-align: left;
+    color:#BACCD6;
+}
+body{
+    background-color: #1a1a1a  ;
+    /*background-image: url(https://media2.giphy.com/media/QTc4NvhYNlyT7Q32uj/giphy.gif);*/
+}
+p{
+    color: white;
+    font-size: 40px;
+}   
+.parentContainer{
+    position:relative;
+    text-align:center;
+}
+.container{
+    text-align:center;
+    width: 100%;
+    position: relative;
+}
+.center{
+    font-size: 175px;
+    font-family: 'Times New Roman';
+    color:#F6F0ED;
+    position:absolute;
+    text-align: center;
+    left:270px;
+    bottom:100px;
+}
+li{
+    float:right;
+    font-family: 'Roboto';
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 75px;
+    text-decoration: none;
+    transition: background-color 0.4s ease-out 20ms;
+
+}
+ul{
+    list-style-type: none;
+    overflow:hidden;
+    background: rgb(25, 18, 18);
+}
+
+.active{
+    background-color: gray;
+    color: #959392;
+}
+.w3container{
+    animation-delay:2s;
+}
+.navbar{
+    top:-20px;
+    position: fixed;
+    z-index:1;
+    padding: 0%;
+    margin: 0%;
+    width:100%;
+}
+li :hover{
+    background-color: gray;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+.abt-me-view-all{
+    margin: 20px;
+    display: inline-block;
+}
+.introImage{
+    width:100%;
+    height: 500px;
+    opacity:90%;
+    display: flex;
+}
+.myphoto{
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 0px;
+    margin: 60px;
+    float: middle;
+    display: inline-flex;
+}
+.generalheader{
+    color:white;
+    font-size:70px; 
+}
+.intro1{
+    word-wrap: break-word;
+    width: 900px;
+    margin:5px;
+    padding:5px;
+}
+.flex{
+    display: flex;
+    margin:5px;
+}
